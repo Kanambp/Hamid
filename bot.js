@@ -1,24 +1,25 @@
 // ⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈
-//▮ZIM BOT INC 2022 ®️ALL RIGHTS RESERVED
+//▮KANAMBO THE BOT 2022 ®️ALL RIGHTS RESERVED
 //▮
-//▮FORK AND DON'T FORGET TO GIVE A STAR
 //▮
-//▮ZimBotInc SOFTWARE IS UNDER UZ COPYRIGHT
+//▮KANAMBO THE BOT SOFTWARE IS UNDER UZ COPYRIGHT
 //▮
-//▮REPORT ABUSE OF ZimBotInc SOFTWARE EMAIL US
-//▮reinhardtuna@mail.uk
-//▮WHATSAPP US : +44 7441 437150
-//▮YOUTUBE CHANNELL: https://youtube.com/c/DRIPSOFC
+//▮REPORT ABUSE OF KANAMBO THE BOT SOFTWARE EMAIL US
+//▮oyugipeterodongo@gmail.com
+//▮WHATSAPP US : +254114148625
 //▮
-//╰▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+//▮
+//╰______________________________________________
+
 //
 //┏━━━━━━━━━━━━━━━━━━━━━━━━━
-//┃ZimBotInc SOFTWARE INCLUDES 
+//┃KANAMBO THE BOT SOFTWARE INCLUDES 
 //┃SOME ENCRYPTED FILES
 //┃
-//┃THANKS FOR CHOOSING ZIMBOT
-//┃THANKS TO DIKA ARDNT
+//┃THANKS FOR CHOOSING KANAMBO-BOT
+//┃THANKS TO KANAMBO
 //┗━━━━━━━━━━━━━━━━━━━━━━━━━
+//
 
 const fs = require('fs')
 const chalk = require('chalk')
@@ -33,13 +34,13 @@ global.APIKeys = {
 }
 
 //settings
-global.owner = ['27634090203',''] //owner number +27634090203
-global.pemilik = ['27634090203'] //owner number +27634090203
-global.premium = ['27634090203'] //premium number +27634090203
-global.pengguna = 'Drips' //username
-global.footer = 'ZIM BOT INC'
-global.botnma = 'ZIM BOT INC' //bot name
-global.ownernma = 'Drips' //owner name
+global.owner = ['254114148625',''] //owner number +254114148625
+global.pemilik = ['254114148625'] //owner number +254114148625
+global.premium = ['254114148625'] //premium number +254114148625
+global.pengguna = 'KANAMBO' //username
+global.footer = 'KANAMBO THE BOT'
+global.botnma = 'KANAMBO THE BOT' //bot name
+global.ownernma = 'KANAMBO' //owner name
 global.packname = 'Drips' //sticker package name
 global.author = 'By Drips Memes' //sticker author name
 global.sessionName = 'session' //session name
@@ -68,7 +69,7 @@ emeraldawal: 5,
 umpanawal: 5,
 potionawal: 1
 }
-global.thumb = fs.readFileSync('./Zimbot/drips.jpg')
+global.thumb = fs.readFileSync('./Kanambo/drips.jpg')
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
