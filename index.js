@@ -62,7 +62,7 @@ async function startKanamboTheBot() {
         if (! KanamboTheBot.public && !mek.key.fromMe && chatUpdate.type === 'notify') return
         if (mek.key.id.startsWith('BAE5') && mek.key.id.length === 16) return
         m = smsg(KanamboTheBot, mek, store)
-        require("./Kanambo")(KanamboTheBot, m, chatUpdate, store)
+        require("./zimbot")(KanamboTheBot, m, chatUpdate, store)
         } catch (err) {
             console.log(err)
         }
@@ -233,7 +233,7 @@ KanamboTheBot.ev.on('group-participants.update', async (anu) => {
             else if (reason === DisconnectReason.timedOut) { console.log("Connection TimedOut, Reconnecting..."); startKanamboTheBot(); }
             else { console.log(`Unknown DisconnectReason: ${reason}|${connection}`) }
         }
-        console.log('Kanambo...', update)
+        console.log('Zimbot...', update)
     })
     
     KanamboTheBot.ev.on('creds.update', saveState)
