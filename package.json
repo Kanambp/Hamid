@@ -1,7 +1,7 @@
 {
-  "name": "Zim Bot Inc",
+  "name": "Zim-bot",
   "version": "1.0.0",
-  "description": "Multi device wa bot created by Kanambo The Bot.",
+  "description": "Multi device wa bot created by Zim Bot Inc.",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
@@ -18,7 +18,7 @@
     "bot-md",
     "multi-device"
   ],
-  "author": "KANAMBO",
+  "author": "Drips",
   "license": "MIT",
   "dependencies": {
     "@adiwajshing/baileys": "^4.0.1",
@@ -69,7 +69,7 @@
     "url": "git+https://github.com/Kanambp/Hamid.git"
   },
   "bugs": {
-    "url": "https://github.com/Kanambp/Hamid/issues"
+    "url": "https://github.com/zim-bot/tuna-bot/issues"
   },
-  "homepage": "https://github.com/Kanambp/Hamid#readme"
+  "homepage": "https://github.com/zim-bot/tuna-bot#readme"
 }
