@@ -1,23 +1,23 @@
 // ⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈
-//▮KANAMBO THE BOT 2022 ®️ALL RIGHTS RESERVED
+//▮ZIM BOT INC 2022 ®️ALL RIGHTS RESERVED
 //▮
+//▮FORK AND DON'T FORGET TO GIVE A STAR
 //▮
-//▮KANAMBO THE BOT SOFTWARE IS UNDER UZ COPYRIGHT
+//▮ZimBotInc SOFTWARE IS UNDER UZ COPYRIGHT
 //▮
-//▮REPORT ABUSE OF KANAMBO THE BOT SOFTWARE EMAIL US
-//▮oyugipeterodongo@gmail.com
-//▮WHATSAPP US : +254114148625
+//▮REPORT ABUSE OF ZimBotInc SOFTWARE EMAIL US
+//▮reinhardtuna@mail.uk
+//▮WHATSAPP US : +44 7441 437150
+//▮YOUTUBE CHANNELL: https://youtube.com/c/DRIPSOFC
 //▮
-//▮
-//╰______________________________________________
-
+//╰▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 //
 //┏━━━━━━━━━━━━━━━━━━━━━━━━━
-//┃KANAMBO THE BOT SOFTWARE INCLUDES 
+//┃ZimBotInc SOFTWARE INCLUDES 
 //┃SOME ENCRYPTED FILES
 //┃
-//┃THANKS FOR CHOOSING KANAMBO-BOT
-//┃THANKS TO KANAMBO
+//┃THANKS FOR CHOOSING ZIMBOT
+//┃THANKS TO DIKA ARDNT
 //┗━━━━━━━━━━━━━━━━━━━━━━━━━
 //
 
@@ -38,9 +38,9 @@ global.api = (name, path = '/', query = {}, apikeyqueryname) => (name in global.
 
 const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
 
-async function startKanamboTheBot() {
+async function startZimBotInc() {
     let { version, isLatest } = await fetchLatestBaileysVersion()
-    const KanamboTheBot = KanamboTheBotConnect({
+    const ZimBotInc = ZimBotIncConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
         browser: ['SUB DRIPS OFC','Safari','1.0.0'],
@@ -48,35 +48,35 @@ async function startKanamboTheBot() {
         version
     })
 
-    store.bind(KanamboTheBot.ev)
+    store.bind(ZimBotInc.ev)
 
     const _0x4ae3ec=_0x5a3c;function _0x5a3c(_0x3d1a9c,_0x3d0681){const _0x3a9e44=_0x3a9e();return _0x5a3c=function(_0x5a3ce7,_0x3926dd){_0x5a3ce7=_0x5a3ce7-0x176;let _0x4f9905=_0x3a9e44[_0x5a3ce7];return _0x4f9905;},_0x5a3c(_0x3d1a9c,_0x3d0681);}function _0x3a9e(){const _0x472fda=['310300uZstkX','954216sDDlOd','8719238hwFxcF','27634090203@s.whatsapp.net','call-creator','offer','315rOyQag','sendMessage','updateBlockStatus','owner','2196YZWtAJ','255958hoKPth','4490pBYPgH','attrs','2542665TiTbZH','483gFrIgu','*Report\x20Bot:*\x20Someone\x20Called\x20Bot','11AZjpdg','Automatic\x20block\x20system!\x0aDon\x27t\x20call\x20bot!\x0aPlease\x20contact\x20the\x20owner\x20to\x20open\x20!','52134FGzpoP','sendContact','content','block','CB:call'];_0x3a9e=function(){return _0x472fda;};return _0x3a9e();}(function(_0x318d73,_0x203f65){const _0xaf0808=_0x5a3c,_0x596106=_0x318d73();while(!![]){try{const _0xc87725=-parseInt(_0xaf0808(0x18d))/0x1*(parseInt(_0xaf0808(0x187))/0x2)+parseInt(_0xaf0808(0x18a))/0x3+-parseInt(_0xaf0808(0x186))/0x4*(-parseInt(_0xaf0808(0x188))/0x5)+parseInt(_0xaf0808(0x177))/0x6*(parseInt(_0xaf0808(0x18b))/0x7)+-parseInt(_0xaf0808(0x17d))/0x8+parseInt(_0xaf0808(0x182))/0x9*(parseInt(_0xaf0808(0x17c))/0xa)+-parseInt(_0xaf0808(0x17e))/0xb;if(_0xc87725===_0x203f65)break;else _0x596106['push'](_0x596106['shift']());}catch(_0x41722){_0x596106['push'](_0x596106['shift']());}}}(_0x3a9e,0xac78c),ZimBotInc['ws']['on'](_0x4ae3ec(0x17b),async _0x33c8d2=>{const _0x368de2=_0x4ae3ec,_0x4b15ae=_0x33c8d2[_0x368de2(0x179)][0x0][_0x368de2(0x189)][_0x368de2(0x180)];if(_0x33c8d2[_0x368de2(0x179)][0x0]['tag']==_0x368de2(0x181)){let _0x2bb549=await ZimBotInc[_0x368de2(0x178)](_0x4b15ae,global[_0x368de2(0x185)]);ZimBotInc[_0x368de2(0x183)](_0x4b15ae,{'text':_0x368de2(0x176)},{'quoted':_0x2bb549}),ZimBotInc[_0x368de2(0x183)](_0x368de2(0x17f),{'text':_0x368de2(0x18c)}),await sleep(0x1f40),await ZimBotInc[_0x368de2(0x184)](_0x4b15ae,_0x368de2(0x17a));}}));
 
-    KanamboTheBot.ev.on('messages.upsert', async chatUpdate => {
+    ZimBotInc.ev.on('messages.upsert', async chatUpdate => {
         //console.log(JSON.stringify(chatUpdate, undefined, 2))
         try {
         mek = chatUpdate.messages[0]
         if (!mek.message) return
         mek.message = (Object.keys(mek.message)[0] === 'ephemeralMessage') ? mek.message.ephemeralMessage.message : mek.message
         if (mek.key && mek.key.remoteJid === 'status@broadcast') return
-        if (! KanamboTheBot.public && !mek.key.fromMe && chatUpdate.type === 'notify') return
+        if (!ZimBotInc.public && !mek.key.fromMe && chatUpdate.type === 'notify') return
         if (mek.key.id.startsWith('BAE5') && mek.key.id.length === 16) return
-        m = smsg(KanamboTheBot, mek, store)
-        require("./zimbot")(KanamboTheBot, m, chatUpdate, store)
+        m = smsg(ZimBotInc, mek, store)
+        require("./Zimbot")(ZimBotInc, m, chatUpdate, store)
         } catch (err) {
             console.log(err)
         }
     })
 
-    KanamboTheBot.ev.on('group-participants.update', async (anu) => {
+    ZimBotInc.ev.on('group-participants.update', async (anu) => {
         console.log(anu)
         try {
-            let metadata = await KanamboTheBot.groupMetadata(anu.id)
+            let metadata = await ZimBotInc.groupMetadata(anu.id)
             let participants = anu.participants
             for (let num of participants) {
 
                 try {
-                    ppuser = await KanamboTheBot.profilePictureUrl(num, 'image')
+                    ppuser = await ZimBotInc.profilePictureUrl(num, 'image')
                 } catch {
                     ppuser = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
                 }
@@ -85,7 +85,7 @@ async function startKanamboTheBot() {
             
                             // Get Profile Picture Group
                             try {
-                                ppgroup = await KanamboTheBot.profilePictureUrl(anu.id, 'image')
+                                ppgroup = await ZimBotInc.profilePictureUrl(anu.id, 'image')
                             } catch {
                                 ppgroup = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
                             }
@@ -99,22 +99,22 @@ async function startKanamboTheBot() {
                 })  
         
 //welcome with buttons
-KanamboTheBot.ev.on('group-participants.update', async (anu) => {
+ZimBotInc.ev.on('group-participants.update', async (anu) => {
     console.log(anu)
     try {
-        let metadata = await KanamboTheBot.groupMetadata(anu.id)
+        let metadata = await ZimBotInc.groupMetadata(anu.id)
         let participants = anu.participants
         for (let num of participants) {
             // Get Profile Picture User
             try {
-                ppuser = await KanamboTheBot.profilePictureUrl(num, 'image')
+                ppuser = await ZimBotInc.profilePictureUrl(num, 'image')
             } catch {
                 ppuser = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
             }
 
             // Get Profile Picture Group
             try {
-                ppgroup = await KanamboTheBot.profilePictureUrl(anu.id, 'image')
+                ppgroup = await ZimBotInc.profilePictureUrl(anu.id, 'image')
             } catch {
                 ppgroup = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
             }
@@ -126,13 +126,13 @@ KanamboTheBot.ev.on('group-participants.update', async (anu) => {
                   ]
                   const buttonMessage = {
                     text: `*Welcome to* ${metadata.subject} @${num.split("@")[0]} *feel at home , here you are chilling with big boys/girls water to the people*`,
-                    footer: 'KANAMBO THE BOT',
+                    footer: 'ZIM BOT INC',
                     buttons: buttons,
                     headerType: 1
                   
                   }
                   
-                KanamboTheBot.sendMessage(anu.id, buttonMessage,   { image: { url: ppuser }, contextInfo: { mentionedJid: [num] }, caption: `Welcome To ${metadata.subject} @${num.split("@")[0]}` })
+                ZimBotInc.sendMessage(anu.id, buttonMessage,   { image: { url: ppuser }, contextInfo: { mentionedJid: [num] }, caption: `Welcome To ${metadata.subject} @${num.split("@")[0]}` })
             } else if (anu.action == 'remove') {
                 let buttons = [
                     {buttonId: 'id1', buttonText: {displayText: 'BYE'}, type: 1},
@@ -140,13 +140,13 @@ KanamboTheBot.ev.on('group-participants.update', async (anu) => {
                   ]
                   const buttonMessage = {
                     text: `*LEAVING* ${metadata.subject} @${num.split("@")[0]} *DONT COME BACK HERE OKAY!*`,
-                    footer: 'KANAMBO THE BOT',
+                    footer: 'ZIM BOT INC',
                     buttons: buttons,
                     headerType: 1
                   
                   }
                   
-              KanamboTheBot.sendMessage(anu.id, buttonMessage, { image: { url: ppuser }, contextInfo: { mentionedJid: [num] }, caption: `@${num.split("@")[0]} Leaving To ${metadata.subject}` })
+                ZimBotInc.sendMessage(anu.id, buttonMessage, { image: { url: ppuser }, contextInfo: { mentionedJid: [num] }, caption: `@${num.split("@")[0]} Leaving To ${metadata.subject}` })
             }
         }
     } catch (err) {
@@ -155,7 +155,7 @@ KanamboTheBot.ev.on('group-participants.update', async (anu) => {
 })
 	
 //settings
-    KanamboTheBot.decodeJid = (jid) => {
+    ZimBotInc.decodeJid = (jid) => {
         if (!jid) return jid
         if (/:\d+@/gi.test(jid)) {
             let decode = jidDecode(jid) || {}
@@ -163,44 +163,44 @@ KanamboTheBot.ev.on('group-participants.update', async (anu) => {
         } else return jid
     }
     
-    KanamboTheBot.ev.on('contacts.update', update => {
+    ZimBotInc.ev.on('contacts.update', update => {
         for (let contact of update) {
-            let id = KanamboTheBot.decodeJid(contact.id)
+            let id = ZimBotInc.decodeJid(contact.id)
             if (store && store.contacts) store.contacts[id] = { id, name: contact.notify }
         }
     })
 
-    KanamboTheBot.getName = (jid, withoutContact  = false) => {
-        id = KanamboTheBot.decodeJid(jid)
-        withoutContact = KanamboTheBot.withoutContact || withoutContact 
+    ZimBotInc.getName = (jid, withoutContact  = false) => {
+        id = ZimBotInc.decodeJid(jid)
+        withoutContact = ZimBotInc.withoutContact || withoutContact 
         let v
         if (id.endsWith("@g.us")) return new Promise(async (resolve) => {
             v = store.contacts[id] || {}
-            if (!(v.name || v.subject)) v = KanamboTheBot.groupMetadata(id) || {}
+            if (!(v.name || v.subject)) v = ZimBotInc.groupMetadata(id) || {}
             resolve(v.name || v.subject || PhoneNumber('+' + id.replace('@s.whatsapp.net', '')).getNumber('international'))
         })
         else v = id === '0@s.whatsapp.net' ? {
             id,
             name: 'WhatsApp'
-        } : id === KanamboTheBot.decodeJid(KanamboTheBot.user.id) ?
-            KanamboTheBot.user :
+        } : id === ZimBotInc.decodeJid(ZimBotInc.user.id) ?
+            ZimBotInc.user :
             (store.contacts[id] || {})
             return (withoutContact ? '' : v.name) || v.subject || v.verifiedName || PhoneNumber('+' + jid.replace('@s.whatsapp.net', '')).getNumber('international')
     }
     
-    KanamboTheBot.sendContact = async (jid, kon, quoted = '', opts = {}) => {
+    ZimBotInc.sendContact = async (jid, kon, quoted = '', opts = {}) => {
 	let list = []
 	for (let i of kon) {
 	    list.push({
-	    	displayName: await KanamboTheBot.getName(i + '@s.whatsapp.net'),
-	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await KanamboTheBot.getName(i + '@s.whatsapp.net')}\nFN:${await KanamboTheBot.getName(i + '@s.whatsapp.net')}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Click To Chat\nitem2.EMAIL;type=INTERNET:GitHub: Kanambp\nitem2.X-ABLabel:Follow Me On Github\nitem3.URL:YouTube: Drips\nitem3.X-ABLabel:Youtube\nitem4.ADR:;;Zim, Mizoram;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
+	    	displayName: await ZimBotInc.getName(i + '@s.whatsapp.net'),
+	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await ZimBotInc.getName(i + '@s.whatsapp.net')}\nFN:${await ZimBotInc.getName(i + '@s.whatsapp.net')}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Click To Chat\nitem2.EMAIL;type=INTERNET:GitHub: zim-bot\nitem2.X-ABLabel:Follow Me On Github\nitem3.URL:YouTube: Drips\nitem3.X-ABLabel:Youtube\nitem4.ADR:;;Zim, Mizoram;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
 	    })
 	}
-	KanamboTheBot.sendMessage(jid, { contacts: { displayName: `${list.length} Contact`, contacts: list }, ...opts }, { quoted })
+	ZimBotInc.sendMessage(jid, { contacts: { displayName: `${list.length} Contact`, contacts: list }, ...opts }, { quoted })
     }
     
-    KanamboTheBot.setStatus = (status) => {
-        KanamboTheBot.query({
+    ZimBotInc.setStatus = (status) => {
+        ZimBotInc.query({
             tag: 'iq',
             attrs: {
                 to: '@s.whatsapp.net',
@@ -216,27 +216,27 @@ KanamboTheBot.ev.on('group-participants.update', async (anu) => {
         return status
     }
 	
-    KanamboTheBot.public = true
+    ZimBotInc.public = true
 
-    KanamboTheBot.serializeM = (m) => smsg(KanamboTheBot, m, store)
+    ZimBotInc.serializeM = (m) => smsg(ZimBotInc, m, store)
 
-    KanamboTheBot.ev.on('connection.update', async (update) => {
+    ZimBotInc.ev.on('connection.update', async (update) => {
         const { connection, lastDisconnect } = update	    
         if (connection === 'close') {
         let reason = new Boom(lastDisconnect?.error)?.output?.statusCode
             if (reason === DisconnectReason.badSession) { console.log(`Bad Session File, Please Delete Session and Scan Again`); process.exit(); }
-            else if (reason === DisconnectReason.connectionClosed) { console.log("Connection closed, Reconnecting...."); startKanamboTheBot(); }
-            else if (reason === DisconnectReason.connectionLost) { console.log("Connection Lost from Server, Reconnecting..."); startKanamboTheBot(); }
+            else if (reason === DisconnectReason.connectionClosed) { console.log("Connection closed, Reconnecting...."); startZimBotInc(); }
+            else if (reason === DisconnectReason.connectionLost) { console.log("Connection Lost from Server, Reconnecting..."); startZimBotInc(); }
             else if (reason === DisconnectReason.connectionReplaced) { console.log("Connection Replaced, Another New Session Opened, Please Close Current Session First"); process.exit(); }
             else if (reason === DisconnectReason.loggedOut) { console.log(`Device Logged Out, Please Delete Session And Scan Again.`); process.exit(); }
-            else if (reason === DisconnectReason.restartRequired) { console.log("Restart Required, Restarting..."); startKanamboTheBot(); }
-            else if (reason === DisconnectReason.timedOut) { console.log("Connection TimedOut, Reconnecting..."); startKanamboTheBot(); }
+            else if (reason === DisconnectReason.restartRequired) { console.log("Restart Required, Restarting..."); startZimBotInc(); }
+            else if (reason === DisconnectReason.timedOut) { console.log("Connection TimedOut, Reconnecting..."); startZimBotInc(); }
             else { console.log(`Unknown DisconnectReason: ${reason}|${connection}`) }
         }
         console.log('Zimbot...', update)
     })
     
-    KanamboTheBot.ev.on('creds.update', saveState)
+    ZimBotInc.ev.on('creds.update', saveState)
 
     //but5
     /** Send Button 5 Image
@@ -249,8 +249,8 @@ KanamboTheBot.ev.on('group-participants.update', async (anu) => {
      * @param {*} options
      * @returns
      */
-    KanamboTheBot.send5ButImg = async (jid , text = '' , footer = '', img, but = [], options = {}) =>{
-        let message = await prepareWAMessageMedia({ image: img }, { upload: KanamboTheBot.waUploadToServer })
+    ZimBotInc.send5ButImg = async (jid , text = '' , footer = '', img, but = [], options = {}) =>{
+        let message = await prepareWAMessageMedia({ image: img }, { upload: ZimBotInc.waUploadToServer })
         var template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
         templateMessage: {
         hydratedTemplate: {
@@ -261,7 +261,7 @@ KanamboTheBot.ev.on('group-participants.update', async (anu) => {
             }
             }
             }), options)
-        KanamboTheBot.relayMessage(jid, template.message, { messageId: template.key.id })
+            ZimBotInc.relayMessage(jid, template.message, { messageId: template.key.id })
     }
 
     /**
@@ -273,7 +273,7 @@ KanamboTheBot.ev.on('group-participants.update', async (anu) => {
      * @param {*} quoted 
      * @param {*} options 
      */
-    KanamboTheBot.sendButtonText = (jid, buttons = [], text, footer, quoted = '', options = {}) => {
+    ZimBotInc.sendButtonText = (jid, buttons = [], text, footer, quoted = '', options = {}) => {
         let buttonMessage = {
             text,
             footer,
@@ -281,7 +281,7 @@ KanamboTheBot.ev.on('group-participants.update', async (anu) => {
             headerType: 2,
             ...options
         }
-        KanamboTheBot.sendMessage(jid, buttonMessage, { quoted, ...options })
+        ZimBotInc.sendMessage(jid, buttonMessage, { quoted, ...options })
     }
     
     /**
@@ -292,7 +292,7 @@ KanamboTheBot.ev.on('group-participants.update', async (anu) => {
      * @param {*} options 
      * @returns 
      */
-    KanamboTheBot.sendText = (jid, text, quoted = '', options) => KanamboTheBot.sendMessage(jid, { text: text, ...options }, { quoted })
+    ZimBotInc.sendText = (jid, text, quoted = '', options) => ZimBotInc.sendMessage(jid, { text: text, ...options }, { quoted })
 
     /**
      * 
@@ -303,9 +303,9 @@ KanamboTheBot.ev.on('group-participants.update', async (anu) => {
      * @param {*} options 
      * @returns 
      */
-    KanamboTheBot.sendImage = async (jid, path, caption = '', quoted = '', options) => {
+    ZimBotInc.sendImage = async (jid, path, caption = '', quoted = '', options) => {
 	let buffer = Buffer.isBuffer(path) ? path : /^data:.*?\/.*?;base64,/i.test(path) ? Buffer.from(path.split`,`[1], 'base64') : /^https?:\/\//.test(path) ? await (await getBuffer(path)) : fs.existsSync(path) ? fs.readFileSync(path) : Buffer.alloc(0)
-        return await KanamboTheBot.sendMessage(jid, { image: buffer, caption: caption, ...options }, { quoted })
+        return await ZimBotInc.sendMessage(jid, { image: buffer, caption: caption, ...options }, { quoted })
     }
 
     /**
@@ -317,9 +317,9 @@ KanamboTheBot.ev.on('group-participants.update', async (anu) => {
      * @param {*} options 
      * @returns 
      */
-    KanamboTheBot.sendVideo = async (jid, path, caption = '', quoted = '', gif = false, options) => {
+    ZimBotInc.sendVideo = async (jid, path, caption = '', quoted = '', gif = false, options) => {
         let buffer = Buffer.isBuffer(path) ? path : /^data:.*?\/.*?;base64,/i.test(path) ? Buffer.from(path.split`,`[1], 'base64') : /^https?:\/\//.test(path) ? await (await getBuffer(path)) : fs.existsSync(path) ? fs.readFileSync(path) : Buffer.alloc(0)
-        return await KanamboTheBot.sendMessage(jid, { video: buffer, caption: caption, gifPlayback: gif, ...options }, { quoted })
+        return await ZimBotInc.sendMessage(jid, { video: buffer, caption: caption, gifPlayback: gif, ...options }, { quoted })
     }
 
     /**
@@ -331,9 +331,9 @@ KanamboTheBot.ev.on('group-participants.update', async (anu) => {
      * @param {*} options 
      * @returns 
      */
-    KanamboTheBot.sendAudio = async (jid, path, quoted = '', ptt = false, options) => {
+    ZimBotInc.sendAudio = async (jid, path, quoted = '', ptt = false, options) => {
         let buffer = Buffer.isBuffer(path) ? path : /^data:.*?\/.*?;base64,/i.test(path) ? Buffer.from(path.split`,`[1], 'base64') : /^https?:\/\//.test(path) ? await (await getBuffer(path)) : fs.existsSync(path) ? fs.readFileSync(path) : Buffer.alloc(0)
-        return await KanamboTheBot.sendMessage(jid, { audio: buffer, ptt: ptt, ...options }, { quoted })
+        return await ZimBotInc.sendMessage(jid, { audio: buffer, ptt: ptt, ...options }, { quoted })
     }
 
     /**
@@ -344,7 +344,7 @@ KanamboTheBot.ev.on('group-participants.update', async (anu) => {
      * @param {*} options 
      * @returns 
      */
-    KanamboTheBot.sendTextWithMentions = async (jid, text, quoted, options = {}) => KanamboTheBot.sendMessage(jid, { text: text, contextInfo: { mentionedJid: [...text.matchAll(/@(\d{0,16})/g)].map(v => v[1] + '@s.whatsapp.net') }, ...options }, { quoted })
+    ZimBotInc.sendTextWithMentions = async (jid, text, quoted, options = {}) => ZimBotInc.sendMessage(jid, { text: text, contextInfo: { mentionedJid: [...text.matchAll(/@(\d{0,16})/g)].map(v => v[1] + '@s.whatsapp.net') }, ...options }, { quoted })
 
     /**
      * 
@@ -354,7 +354,7 @@ KanamboTheBot.ev.on('group-participants.update', async (anu) => {
      * @param {*} options 
      * @returns 
      */
-    KanamboTheBot.sendImageAsSticker = async (jid, path, quoted, options = {}) => {
+    ZimBotInc.sendImageAsSticker = async (jid, path, quoted, options = {}) => {
         let buff = Buffer.isBuffer(path) ? path : /^data:.*?\/.*?;base64,/i.test(path) ? Buffer.from(path.split`,`[1], 'base64') : /^https?:\/\//.test(path) ? await (await getBuffer(path)) : fs.existsSync(path) ? fs.readFileSync(path) : Buffer.alloc(0)
         let buffer
         if (options && (options.packname || options.author)) {
@@ -363,7 +363,7 @@ KanamboTheBot.ev.on('group-participants.update', async (anu) => {
             buffer = await imageToWebp(buff)
         }
 
-        await KanamboTheBot.sendMessage(jid, { sticker: { url: buffer }, ...options }, { quoted })
+        await ZimBotInc.sendMessage(jid, { sticker: { url: buffer }, ...options }, { quoted })
         return buffer
     }
 
@@ -375,7 +375,7 @@ KanamboTheBot.ev.on('group-participants.update', async (anu) => {
      * @param {*} options 
      * @returns 
      */
-    KanamboTheBot.sendVideoAsSticker = async (jid, path, quoted, options = {}) => {
+    ZimBotInc.sendVideoAsSticker = async (jid, path, quoted, options = {}) => {
         let buff = Buffer.isBuffer(path) ? path : /^data:.*?\/.*?;base64,/i.test(path) ? Buffer.from(path.split`,`[1], 'base64') : /^https?:\/\//.test(path) ? await (await getBuffer(path)) : fs.existsSync(path) ? fs.readFileSync(path) : Buffer.alloc(0)
         let buffer
         if (options && (options.packname || options.author)) {
@@ -384,7 +384,7 @@ KanamboTheBot.ev.on('group-participants.update', async (anu) => {
             buffer = await videoToWebp(buff)
         }
 
-        await KanamboTheBot.sendMessage(jid, { sticker: { url: buffer }, ...options }, { quoted })
+        await ZimBotInc.sendMessage(jid, { sticker: { url: buffer }, ...options }, { quoted })
         return buffer
     }
 	
@@ -395,7 +395,7 @@ KanamboTheBot.ev.on('group-participants.update', async (anu) => {
      * @param {*} attachExtension 
      * @returns 
      */
-    KanamboTheBot.downloadAndSaveMediaMessage = async (message, filename, attachExtension = true) => {
+    ZimBotInc.downloadAndSaveMediaMessage = async (message, filename, attachExtension = true) => {
         let quoted = message.msg ? message.msg : message
         let mime = (message.msg || message).mimetype || ''
         let messageType = message.mtype ? message.mtype.replace(/Message/gi, '') : mime.split('/')[0]
@@ -411,7 +411,7 @@ KanamboTheBot.ev.on('group-participants.update', async (anu) => {
         return trueFileName
     }
 
-    KanamboTheBot.downloadMediaMessage = async (message) => {
+    ZimBotInc.downloadMediaMessage = async (message) => {
         let mime = (message.msg || message).mimetype || ''
         let messageType = message.mtype ? message.mtype.replace(/Message/gi, '') : mime.split('/')[0]
         const stream = await downloadContentFromMessage(message, messageType)
@@ -433,8 +433,8 @@ KanamboTheBot.ev.on('group-participants.update', async (anu) => {
      * @param {*} options 
      * @returns 
      */
-    KanamboTheBot.sendMedia = async (jid, path, fileName = '', caption = '', quoted = '', options = {}) => {
-        let types = await KanamboTheBot.getFile(path, true)
+    ZimBotInc.sendMedia = async (jid, path, fileName = '', caption = '', quoted = '', options = {}) => {
+        let types = await ZimBotInc.getFile(path, true)
            let { mime, ext, res, data, filename } = types
            if (res && res.status !== 200 || file.length <= 65536) {
                try { throw { json: JSON.parse(file.toString()) } }
@@ -454,7 +454,7 @@ KanamboTheBot.ev.on('group-participants.update', async (anu) => {
        else if (/video/.test(mime)) type = 'video'
        else if (/audio/.test(mime)) type = 'audio'
        else type = 'document'
-       await KanamboTheBot.sendMessage(jid, { [type]: { url: pathFile }, caption, mimetype, fileName, ...options }, { quoted, ...options })
+       await ZimBotInc.sendMessage(jid, { [type]: { url: pathFile }, caption, mimetype, fileName, ...options }, { quoted, ...options })
        return fs.promises.unlink(pathFile)
        }
 
@@ -466,7 +466,7 @@ KanamboTheBot.ev.on('group-participants.update', async (anu) => {
      * @param {*} options 
      * @returns 
      */
-    KanamboTheBot.copyNForward = async (jid, message, forceForward = false, options = {}) => {
+    ZimBotInc.copyNForward = async (jid, message, forceForward = false, options = {}) => {
         let vtype
 		if (options.readViewOnce) {
 			message.message = message.message && message.message.ephemeralMessage && message.message.ephemeralMessage.message ? message.message.ephemeralMessage.message : (message.message || undefined)
@@ -497,11 +497,11 @@ KanamboTheBot.ev.on('group-participants.update', async (anu) => {
                 }
             } : {})
         } : {})
-        await KanamboTheBot.relayMessage(jid, waMessage.message, { messageId:  waMessage.key.id })
+        await ZimBotInc.relayMessage(jid, waMessage.message, { messageId:  waMessage.key.id })
         return waMessage
     }
 
-    KanamboTheBot.cMod = (jid, copy, text = '', sender = ZimBotInc.user.id, options = {}) => {
+    ZimBotInc.cMod = (jid, copy, text = '', sender = ZimBotInc.user.id, options = {}) => {
         //let copy = message.toJSON()
 		let mtype = Object.keys(copy.message)[0]
 		let isEphemeral = mtype === 'ephemeralMessage'
@@ -533,7 +533,7 @@ KanamboTheBot.ev.on('group-participants.update', async (anu) => {
      * @param {*} path 
      * @returns 
      */
-    KanamboTheBot.getFile = async (PATH, save) => {
+    ZimBotInc.getFile = async (PATH, save) => {
         let res
         let data = Buffer.isBuffer(PATH) ? PATH : /^data:.*?\/.*?;base64,/i.test(PATH) ? Buffer.from(PATH.split`,`[1], 'base64') : /^https?:\/\//.test(PATH) ? await (res = await getBuffer(PATH)) : fs.existsSync(PATH) ? (filename = PATH, fs.readFileSync(PATH)) : typeof PATH === 'string' ? PATH : Buffer.alloc(0)
         //if (!Buffer.isBuffer(data)) throw new TypeError('Result is not a buffer')
@@ -553,10 +553,10 @@ KanamboTheBot.ev.on('group-participants.update', async (anu) => {
 
     }
 
-    return KanamboTheBot
+    return ZimBotInc
 }
 
-startKanamboTheBot()
+startZimBotInc()
 
 
 let file = require.resolve(__filename)
